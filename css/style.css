@@ -70,9 +70,10 @@ a:focus {
 .padding-right { padding-left: 10px }
 .bold { font-weight: 700 }
 .light { font-weight: lighter }
-.logo { height: 60px }
+.logo { height: 100px; border-radius: 50%; border: solid 3px #ea6060;}
 #header {
-    background-color: #ea6060;
+    background-color: #f47771;
+    border-bottom: solid 5px #ea6060;
     color: #ffffff;
     padding: 20px;
 }
@@ -270,7 +271,6 @@ span.t-position {
     opacity: 100;
 }
 .testimonial2 {
-    background-color: #f4f4f4;
     height: auto;
     padding-top: 60px;
     padding-bottom: 80px;
@@ -279,7 +279,7 @@ span.t-position {
     display: block;
     width: 100%;
     height: auto;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 .owl-theme .owl-controls .owl-buttons div { background: transparent }
 #testimonial .testimonial2 .owl-prev {
@@ -514,6 +514,20 @@ span.t-position {
     transition: all 0.5s;
     -webkit-font-smoothing: antialiased;
 }
+
+.color-block {
+    height: 220px;
+    /*text-align: center;  */
+    vertical-align: middle;
+    color: #fff;
+    background-color: #565d67;
+}
+
+.color-block h4{
+    font-size: 4em;
+    vertical-align: middle;
+}
+
 /* Responsive Media Query */
 @media only screen and (min-width: 1200px) { 
     .container { width: 960px }
